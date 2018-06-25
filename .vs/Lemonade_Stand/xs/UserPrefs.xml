@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{2D76DAD5-9BB5-454D-A81C-9AD15A93BE76}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lemonade_Stand/Lemonade.cs">
+    <Files>
+      <File FileName="Lemonade_Stand/Lemonade.cs" Line="10" Column="13" />
+      <File FileName="Lemonade_Stand/Weather.cs" Line="6" Column="16" />
+      <File FileName="Lemonade_Stand/Customer.cs" Line="1" Column="1" />
+      <File FileName="Lemonade_Stand/Time.cs" Line="1" Column="1" />
+      <File FileName="Lemonade_Stand/Profits.cs" Line="1" Column="1" />
+      <File FileName="Lemonade_Stand/Recipe.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Lemonade__Stand PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
