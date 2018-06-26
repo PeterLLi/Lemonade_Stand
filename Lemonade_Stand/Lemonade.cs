@@ -26,12 +26,14 @@ namespace Lemonade_Stand
             {
                 Console.WriteLine("What would you like to do?");
 
+                //Displays all menu options
                 for (int i = 0; i < 3; i++){
                     Console.WriteLine(menuOptions[i]);
                 }
 
                 menuInput = Console.ReadLine();
 
+                //Validation portion
                 if (menuInput == ""){
                     Console.WriteLine("Please input something!");
                 } else {
