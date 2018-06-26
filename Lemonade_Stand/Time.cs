@@ -5,6 +5,7 @@ namespace Lemonade_Stand
     {
         public Time()
         {
+            
         }
     }
 }
