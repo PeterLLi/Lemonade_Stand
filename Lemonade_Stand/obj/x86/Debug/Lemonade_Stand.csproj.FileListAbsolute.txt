@@ -1,0 +1,6 @@
+/Users/peterli/Documents/Dev Code Camp/Projects/Lemonade_Stand/Lemonade_Stand/bin/Debug/Lemonade_Stand.exe
+/Users/peterli/Documents/Dev Code Camp/Projects/Lemonade_Stand/Lemonade_Stand/bin/Debug/Lemonade_Stand.pdb
+/Users/peterli/Documents/Dev Code Camp/Projects/Lemonade_Stand/Lemonade_Stand/obj/x86/Debug/Lemonade_Stand.csprojResolveAssemblyReference.cache
+/Users/peterli/Documents/Dev Code Camp/Projects/Lemonade_Stand/Lemonade_Stand/obj/x86/Debug/Lemonade_Stand.csproj.CoreCompileInputs.cache
+/Users/peterli/Documents/Dev Code Camp/Projects/Lemonade_Stand/Lemonade_Stand/obj/x86/Debug/Lemonade_Stand.exe
+/Users/peterli/Documents/Dev Code Camp/Projects/Lemonade_Stand/Lemonade_Stand/obj/x86/Debug/Lemonade_Stand.pdb

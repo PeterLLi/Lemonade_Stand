@@ -6,8 +6,7 @@ namespace Lemonade_Stand
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Weather();
+            Day day = new Day();
         }
     }
 }
