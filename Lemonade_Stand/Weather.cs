@@ -1,34 +1,33 @@
 ﻿using System;
-namespace Lemonade_Stand
-{
-    public class Weather:Day
-    {
-        public string currentWeather;
+
+namespace Lemonade_Stand{
+    public class Weather{
+        public int weatherDemand;
         public int weatherNumber;
         public int currentTemp;
+        public int tempDemand;
+        public string currentWeather;
 
-        public void SetWeather()
-        {
+        public void SetWeather(){
             Random weatherNum = new Random();
             weatherNumber = weatherNum.Next(1, 5);
 
             if(weatherNumber == 5){
                 currentWeather = "Sunny";
                 weatherDemand = 60;
-            }else if(weatherNumber == 4){
+            } if (weatherNumber == 4){
                 currentWeather = "Partly sunny/cloudy";
                 weatherDemand = 50;
-            }else if(weatherNumber == 3){
+            } else if (weatherNumber == 3){
                 currentWeather = "Cloudy";
                 weatherDemand = 40;
-            }else if(weatherNumber == 2){
+            } else if (weatherNumber == 2){
                 currentWeather = "Hazy";
                 weatherDemand = 30;
-            }else if(weatherNumber == 1){
+            } else if (weatherNumber == 1){
                 currentWeather = "Rainy";
                 weatherDemand = 20;
             }
-            Console.WriteLine(currentWeather);
         }
 
         public void setTemp(){

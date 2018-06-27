@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Lemonade_Stand
-{
-    public class Customer:Day
-    {
+namespace Lemonade_Stand{
+    public class Customer{
         public int customerDemand;
-        string customers;
+        public string customers;
 
-        public void CustomerGenerator()
-        {
+        public void CustomerGenerator(){
             //List of names and demand
             List<string> customerNames = new List<string>();
             List<int> demand = new List<int>();
@@ -46,13 +43,14 @@ namespace Lemonade_Stand
             //for (int i = 0; i < customerNames.Count; i++){
             //    Console.WriteLine(customerNames[i]);
             //}
-            //customers = string.Join(", ", customerNames.ToArray());
-            //Console.WriteLine(customers);
+
+            customers = string.Join(", ", customerNames.ToArray());
+            Console.WriteLine("Your customers are " + customers);
 
             //Print out the random numbers in the list
-            for (int i = 0; i < demand.Count; i++){
-                Console.WriteLine(demand[i]);
-            }
+            //for (int i = 0; i < demand.Count; i++){
+            //    Console.WriteLine(demand[i]);
+            //}
         }
     }
 }
