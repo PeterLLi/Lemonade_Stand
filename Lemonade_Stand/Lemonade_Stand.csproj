@@ -33,13 +33,13 @@
   <ItemGroup>
     <Compile Include="Lemonade.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Weather.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="Time.cs" />
-    <Compile Include="Profits.cs" />
-    <Compile Include="Recipe.cs" />
     <Compile Include="Day.cs" />
     <Compile Include="Game.cs" />
+    <Compile Include="Shop.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Weather.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
