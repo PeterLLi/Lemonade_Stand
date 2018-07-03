@@ -10,9 +10,9 @@ namespace Lemonade_Stand{
         public Customer customer = new Customer();
         public Weather weather = new Weather();
 
+        //Generate customer pool size based on weather
         public void CustomerGenerator(){
             Random customerGenerator = new Random();
-
 
             if(weather.currentWeather == "Sunny"){
                 minCustomers += 25;
@@ -62,9 +62,7 @@ namespace Lemonade_Stand{
         }
 
         //Evaluate how many people will buy lemonade depending on weather
-        public void Results(string temp, string weather){
-            customer.WeatherChance(temp, weather);
-
+        public void Results(){
             Console.WriteLine("Total buyers " + customer.buyer);
             Console.WriteLine("People who passed " + customer.pass);
         }

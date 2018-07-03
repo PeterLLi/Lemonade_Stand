@@ -10,8 +10,8 @@ namespace Lemonade_Stand{
 
             Game game = new Game();
             Time time = new Time();
-            Shop shop = new Shop();
             Player player = new Player();
+            Customer customer = new Customer();
 
             //Get weather
             Day day = new Day();
@@ -21,11 +21,11 @@ namespace Lemonade_Stand{
             //Set the weather to variables
             temp = day.weather.currentTemprature;
             weather = day.weather.currentWeather;
+            customer.WeatherChance(temp, weather); //Pass the variables to the customer
 
             //Display current weather
             theWeather = "The weather is currently " + day.weather.currentWeather + " and " + day.weather.tempratureNumber + " degrees";
             Console.WriteLine(theWeather);
-
 
             //Seperator
             Console.WriteLine("");
@@ -48,12 +48,11 @@ namespace Lemonade_Stand{
 
                     Console.WriteLine("The length of the game has been set to: " + gameDuration);
                     Console.WriteLine("");
+
                 } else if (game.userMenuChoice == 2) {
-                    game.RunGame(temp, weather);
+                    game.RunGame();
                 }
             } while (game.userMenuChoice != 3);
-
-            game.RunGame(temp, weather);
         }
     }
 }
